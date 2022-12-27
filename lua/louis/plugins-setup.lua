@@ -26,6 +26,9 @@ if not status then
 end
   
 return packer.startup(function(use)
+
+  use("nvim-lua/plenary.nvim")
+
   use("wbthomason/packer.nvim")
     
   use("bluz71/vim-nightfly-guicolors") -- colorscheme
@@ -38,6 +41,9 @@ return packer.startup(function(use)
 
   use("numToStr/Comment.nvim") -- commenting with gc
 
+  use("nvim-tree/nvim-tree.lua") -- file explorer
+
+  use("kyazdani42/nvim-web-devicons") -- icons
   if packer_bootstrap then
     require("packer").sync()
   end
