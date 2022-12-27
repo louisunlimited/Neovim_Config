@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/Users/louissssss/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  ["lualine.nvim"] = {
+    loaded = true,
+    path = "/Users/louissssss/.local/share/nvim/site/pack/packer/start/lualine.nvim",
+    url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
   ["nvim-tree.lua"] = {
     loaded = true,
     path = "/Users/louissssss/.local/share/nvim/site/pack/packer/start/nvim-tree.lua",
