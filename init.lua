@@ -1,0 +1,5 @@
+require("louis.plugins-setup")
+require("louis.core.options")
+require("louis.core.keymaps")
+require("louis.plugins.comment")
+require("louis.core.colorscheme")
