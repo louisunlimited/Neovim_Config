@@ -11,3 +11,8 @@ Some of the plugins I use:
 - nvim-tree
 - comment
 - lualine
+
+Known Dependencies:
+- Make / Cmake
+- Node / npm
+- clang / gcc
