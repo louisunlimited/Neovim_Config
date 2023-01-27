@@ -16,3 +16,4 @@ Known Dependencies:
 - Make / Cmake
 - Node / npm
 - clang / gcc
+- ripgrep & fzf: for fuzzy finding w/  live grep
